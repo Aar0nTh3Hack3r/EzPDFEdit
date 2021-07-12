@@ -1,0 +1,44 @@
+# EzPDFEdit
+- By Aar0nTh3Hack3r 
+
+Simple PDF editor written in Python.
+With this program you can modify in the PDF file the order of the pages.
+
+* Requirements ( for Windows ):
+    - Python 3 ( with tkinter )
+    - Poppler  ( http://blog.alivate.com.au/poppler-windows/ )
+
+ ----- Installation ------
+
+1. We need to install some python modules:
+    Windows:
+        pip.exe install -r requirements.txt
+    Linux:
+        sudo python3 -m pip install -r requirements.txt
+    Mac:
+        # I don't use Mac, idk. 
+
+ ----- Usage ------
+
+To start the program you need:
+    * in Windows:
+        - to drag and drop PDF files to the Python file
+    * in Linux:
+        - to open terminal, and write this command: python3 PDF.py 'whatever.pdf' 'whatever2.pdf' 'whateverN.pdf'
+        ~ Sorry, I developered this program for Windows. :( It works on linux to, but you cann't open the files "eazily".
+
+When the program is loaded, in screen appears 3 windows:
+    1. Source PDF
+    2. Output PDF
+    3. Preview
+
+You can:
+    - put a page into output PDF by double clicking it on the source PDF.
+    - delete a page from output PDF by double clicking it.
+    - hide a page from input PDF by selecting it (clicking it), and than pressing Del.
+    - move a page on the output pdf with right or left arrow.
+
+Export:
+    - when you press the Export button (or Ctrl + e), opens an anther window, where you can type the name of the output pdf.
+    ~ If the PDF name dosn't ends with ".pdf", the program automatically add the ".pdf" extension.
+
